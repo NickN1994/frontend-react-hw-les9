@@ -11,17 +11,17 @@ function App() {
                 <div className='overzicht'>
                     <div className='soldTV'>
                         <h3>Aantalverkochte producten</h3>
-                        <p>{soldTV(inventory)}</p>
+                        {/*<p>{soldTV(inventory)}</p>*/}
                     </div>
 
                     <div className='inStock'>
                         <h3>Aantal ingekochte producten</h3>
-                        <p>{inStockTv(inventory)}</p>
+                        {/*<p>{inStockTv(inventory)}</p>*/}
                     </div>
 
                     <div className='salesToMake'>
                         <h3>Aantal te verkopen producten</h3>
-                        <p>{calcSalesToMake(inStockCounter, tvCounter)}</p>
+                        {/*<p>{calcSalesToMake(inStockCounter, tvCounter)}</p>*/}
                     </div>
                 </div>
             </section>
