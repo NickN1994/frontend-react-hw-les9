@@ -1,0 +1,31 @@
+.page {
+    width: 1200px;
+
+}
+
+.overzicht {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 1200px;
+    justify-content: space-around;
+    border-color: blue;
+}
+
+.soldTV, .inStock, .salesToMake {
+    text-align: center;
+
+}
+
+.soldTV, .inStock, .salesToMake h3 {
+    padding: 20px 0;
+
+}
+
+.soldTV, .inStock, .salesToMake p {
+    padding: 20px 0;
+
+}
+
+.bestSoldTV {
+    width: 1200px;
+}
